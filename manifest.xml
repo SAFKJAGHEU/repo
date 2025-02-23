@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default upstream="master-kernel-build-2021" dest-branch="master-kernel-build-2021" remote="aosp" sync-j="4" />
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-2023-04" />
   <project path="build" name="kernel/build" revision="aa9e9a42c7b058c1d339c7a03f97683b21eb9e35" />
